@@ -7,7 +7,6 @@ const generateHTML = require("./src/generateHTML")
 const inquirer = require('inquirer')
 const fs = require("fs")
 
-// team array
 const profileArray = []; 
 
 // manager prompts 
@@ -72,11 +71,8 @@ const addManager = () => {
         const manager = new Manager (id, name, email, officeNo);
 
         profileArray.push(manager); 
-        console.log(manager); 
     })
 };
-
-
 
 const addEmployee = () => {
     console.log(`
@@ -167,19 +163,13 @@ const addEmployee = () => {
     ])
     .then(employeeData => {
         // data for employee types 
-
         let { name, id, email, role, github, school, confirmAddEmployee } = employeeData; 
         let employee; 
 
         if (role === "Engineer") {
             employee = new Engineer (id, name, email, github);
-
-            console.log(employee);
-
         } else if (role === "Intern") {
             employee = new Intern (id, name, email, school);
-
-            console.log(employee);
         }
 
         profileArray.push(employee); 

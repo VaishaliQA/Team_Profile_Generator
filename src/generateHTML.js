@@ -15,7 +15,6 @@ generateHTML = (data) => {
         // call manager function
         if (role === 'Manager') {
             const managerCard = generateManager(employee);
-            console.log("Manager Card",managerCard)
 
             pageArray.push(managerCard);
         }
