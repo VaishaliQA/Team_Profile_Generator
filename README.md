@@ -22,6 +22,12 @@
   Project was built in node.js using the inquirer package and runs on the command line using node index.js command.
   Here, you can see the visual of entire process.
   
+  
+
+https://user-images.githubusercontent.com/54869821/190055411-2f58a4e4-722d-44d6-882b-046c71cce881.mp4
+
+
+  
   <img width="952" alt="teamprofile" src="https://user-images.githubusercontent.com/54869821/190048101-0c8fd540-f0d0-4e7b-9dca-1dad7fb624ad.png">
 
 
